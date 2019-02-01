@@ -1,0 +1,45 @@
+@import "../../assets/scss/_variables.scss";
+
+.header-border {
+  box-shadow: 0px 6px 6px -3px rgba(0, 0, 0, 0.2);
+}
+.btn {
+  font-size: 13px;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  padding: 8px;
+  transition: all 0.5s ease-in-out;
+  margin: 4px 8px 4px 0;
+  &:hover {
+    box-shadow: 0px 6px 6px -3px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.btn-error {
+  color: $color-error;
+  border: 1px solid $color-error;
+}
+
+.btn-info {
+  color: $color-info;
+  border: 1px solid $color-info;
+}
+
+.btn-success {
+  color: $color-success;
+  border: 1px solid $color-success;
+}
+
+.btn-warn {
+  color: $color-warning;
+  border: 1px solid $color-warning;
+}
+
+.chip {
+  border-radius: 10px;
+  font-size: 10px;
+  color: $color-white;
+  background-color: $color-warning;
+  padding: 2px 5px;
+}
